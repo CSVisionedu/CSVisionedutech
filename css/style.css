@@ -1,16 +1,31 @@
 /********** Template CSS **********/
 
+/* Fixed image sizes for uniform appearance */
 .profile-img {
-    width: 90px;  /* Medium size */
-    height: 90px;
+    width: 126px; /* Fixed profile image size */
+    height: 126px;
     object-fit: contain; /* Ensures full visibility */
 }
 
+/* Fixed size for all result images */
 .result-img {
-    width: 210px; /* Increased by 40% from 150px */
-    height: 210px;
+    width: 240px;
+    height: 240px;
     object-fit: contain; /* Ensures no content is hidden */
 }
+
+/* Owl Carousel Styling */
+.result-carousel .result-item {
+    padding: 15px;
+}
+
+/* Background styling */
+.result-text {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
 
 
 :root {
