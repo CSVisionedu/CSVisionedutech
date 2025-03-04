@@ -1,4 +1,18 @@
 /********** Template CSS **********/
+
+.profile-img {
+    width: 90px;  /* Medium size */
+    height: 90px;
+    object-fit: contain; /* Ensures full visibility */
+}
+
+.result-img {
+    width: 210px; /* Increased by 40% from 150px */
+    height: 210px;
+    object-fit: contain; /* Ensures no content is hidden */
+}
+
+
 :root {
     --primary: #06BBCC;
     --light: #F0FBFC;
