@@ -70,7 +70,7 @@
                 </div-->
                 
             </div>
-            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="register.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -78,12 +78,13 @@
 
     <!-- Carousel Start -->
 <div class="container-fluid p-0 mb-5">
-    <div class="owl-carousel header-carousel position-relative">
+    <div class="owl-carousel header-carousel position-relative" id="carousel">
+        <!-- First Carousel Slide -->
         <div class="owl-carousel-item position-relative">
             <img class="img-fluid" src="img/carousel-1.jpg" alt="">
             <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
                 <div class="container">
-                    <div class="row justify-content-start">
+                    <div class="row">
                         <div class="col-sm-10 col-lg-8">
                             <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Best Online Courses</h5>
                             <h1 class="display-3 text-white animated slideInDown">Top E-Learning Platform</h1>
@@ -92,18 +93,61 @@
                                 🎓 We also provide specialized IT training in C, C++, Java, Python, SQL/Oracle, and web technologies, helping students gain in-demand skills.  
                                 Join us today and boost your career with expert-led courses! 🌟📚  
                             </p>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                            <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                            <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
                         </div>
+                        <!-- Join Us Form -->
+                        <div class="col-sm-10 col-lg-4">
+                            <div class="bg-light p-4 rounded shadow animated slideInRight">
+                                <h3 class="text-center mb-4">Join Us</h3>
+                                <form class="joinForm">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="phone" class="form-label">Phone</label>
+                                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="course" class="form-label">Select Course</label>
+                                        <select class="form-select" id="course" name="course" required>
+                                            <option value="">Choose a Course</option>
+                                            <option value="UGC NET">UGC NET</option>
+                                            <option value="IIT GATE">IIT GATE</option>
+                                            <option value="CUET PG">CUET PG</option>
+                                            <option value="IT Course">IT Course</option>
+                                            <option value="Internship">Internship</option>
+                                            <option value="IT Project">IT Project</option>
+                                            <option value="Web Technology Project">Web Technology Project</option>
+                                            <option value="C Programming">C Programming</option>
+                                            <option value="C++ Programming">C++ Programming</option>
+                                            <option value="Java Programming">Java Programming</option>
+                                            <option value="Python Programming">Python Programming</option>
+                                            <option value="SQL/Oracle">SQL/Oracle</option>
+                                        </select>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100 py-2">Submit</button>
+                                </form>
+                                <div class="successMessage mt-3 text-center text-success" style="display: none;">
+                                    Thank you for joining us! Your details have been successfully submitted. 🎉
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Join Us Form -->
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Second Carousel Slide -->
         <div class="owl-carousel-item position-relative">
             <img class="img-fluid" src="img/carousel-2.jpg" alt="">
             <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
                 <div class="container">
-                    <div class="row justify-content-start">
+                    <div class="row">
                         <div class="col-sm-10 col-lg-8">
                             <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Best Online Courses</h5>
                             <h1 class="display-3 text-white animated slideInDown">Learn From Home</h1>
@@ -112,9 +156,51 @@
                                 🏆 Our IT certification courses cover C, C++, Java, Python, SQL/Oracle, web technologies, and more.  
                                 Gain industry-relevant skills and advance your career with expert guidance! 💡💻  
                             </p>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                            <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                            <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
                         </div>
+                        <!-- Join Us Form -->
+                        <div class="col-sm-10 col-lg-4">
+                            <div class="bg-light p-4 rounded shadow animated slideInRight">
+                                <h3 class="text-center mb-4">Join Us</h3>
+                                <form class="joinForm">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="phone" class="form-label">Phone</label>
+                                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="course" class="form-label">Select Course</label>
+                                        <select class="form-select" id="course" name="course" required>
+                                            <option value="">Choose a Course</option>
+                                            <option value="UGC NET">UGC NET</option>
+                                            <option value="IIT GATE">IIT GATE</option>
+                                            <option value="CUET PG">CUET PG</option>
+                                            <option value="IT Course">IT Course</option>
+                                            <option value="Internship">Internship</option>
+                                            <option value="IT Project">IT Project</option>
+                                            <option value="Web Technology Project">Web Technology Project</option>
+                                            <option value="C Programming">C Programming</option>
+                                            <option value="C++ Programming">C++ Programming</option>
+                                            <option value="Java Programming">Java Programming</option>
+                                            <option value="Python Programming">Python Programming</option>
+                                            <option value="SQL/Oracle">SQL/Oracle</option>
+                                        </select>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100 py-2">Submit</button>
+                                </form>
+                                <div class="successMessage mt-3 text-center text-success" style="display: none;">
+                                    Thank you for joining us! Your details have been successfully submitted. 🎉
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Join Us Form -->
                     </div>
                 </div>
             </div>
@@ -122,6 +208,29 @@
     </div>
 </div>
 <!-- Carousel End -->
+
+<!-- Include JavaScript -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const carousel = $("#carousel");
+        const joinForms = document.querySelectorAll(".joinForm");
+
+        // Stop carousel autoplay when interacting with any form
+        joinForms.forEach((form) => {
+            form.addEventListener("focusin", function() {
+                carousel.trigger('stop.owl.autoplay'); // Stop sliding
+            });
+
+            // Handle form submission
+            form.addEventListener("submit", function(event) {
+                event.preventDefault(); // Prevent page reload
+                const successMessage = form.nextElementSibling;
+                if (successMessage) successMessage.style.display = "block"; // Show success message
+                form.reset(); // Clear the form fields
+            });
+        });
+    });
+</script>
 
 
     <!-- Service Start -->
@@ -601,25 +710,25 @@
     <!-- Testimonial End -->
         
 
-    <!-- Footer Start -->
+<!-- Footer Start -->
 <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
-                <h4 class="text-white mb-3">Quick Link</h4>
+                <h4 class="text-white mb-3">Quick Links</h4>
                 <a class="btn btn-link" href="about.html">About Us</a>
                 <a class="btn btn-link" href="contact.html">Contact Us</a>
-                <a class="btn btn-link" href="">Privacy Policy</a>
-                <a class="btn btn-link" href="">Terms &amp; Condition</a>
-                <a class="btn btn-link" href="">FAQs &amp; Help</a>
+                <a class="btn btn-link" href="#">Privacy Policy</a>
+                <a class="btn btn-link" href="#">Terms & Conditions</a>
+                <a class="btn btn-link" href="#">FAQs & Help</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-white mb-3">Contact</h4>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Bihar , India</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Bihar, India</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 63747 20499</p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>csvision.edubth@gmail.com</p>
                 <div class="d-flex pt-2">
-                    <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/csv_ision?igsh=MzM2Z2ExaWV6a3Bz" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/csv_ision" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/ChandanJaiswal123/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@csvisionbyChandansir" target="_blank"><i class="fab fa-youtube"></i></a>
                     <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/68723161/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -650,30 +759,17 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-white mb-3">Newsletter</h4>
-                <p>CS Vision is one of the best e-learning platforms, offering top-notch classes for aspirants.</p>
+                <p>Stay updated with our latest courses and insights.</p>
                 <div class="position-relative mx-auto" style="max-width: 400px;">
-                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email" placeholder="Your email">
+                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Sign Up</button>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="copyright">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">CS Vision</a>, All Right Reserved.
-                    Designed By <a class="border-bottom" href="https://www.linkedin.com/in/chandan-kumar-jaiswal-b70b95126/" target="_blank">Er. Chandan k Jaiswal</a>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <div class="footer-menu">
-                        <a href="index.html">Home</a>
-                        <a href="">Cookies</a>
-                        <a href="">Help</a>
-                        <a href="">FQAs</a>
-                    </div>
-                </div>
-            </div>
+        <div class="copyright text-center py-4">
+            <p class="mb-0">&copy; 2025 CS Vision. All Rights Reserved. | Designed & Developed by <a class="text-light" href="https://www.linkedin.com/in/chandan-kumar-jaiswal-b70b95126/" target="_blank">Chandan K Jaiswal</a></p>
         </div>
     </div>
 </div>
