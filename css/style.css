@@ -7,6 +7,46 @@
     object-fit: contain; /* Ensures full visibility */
 }
 
+
+/* General Button Styling */
+.btn {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 18px; /* Smaller, Balanced Padding */
+    border-radius: 30px; /* Smooth Rounded Edges */
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Read More Button (Blue) */
+.read-more-btn {
+    background-color: #007bff; /* Vibrant Blue */
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 123, 255, 0.3);
+}
+
+.read-more-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 3px 8px rgba(0, 86, 179, 0.4);
+}
+
+/* Join Now Button (Red) */
+.join-now-btn {
+    background-color: #ff4d4d; /* Eye-catching Red */
+    color: white;
+    box-shadow: 0 2px 5px rgba(255, 77, 77, 0.3);
+}
+
+.join-now-btn:hover {
+    background-color: #cc0000;
+    box-shadow: 0 3px 8px rgba(204, 0, 0, 0.4);
+}
+
+
 /* Fixed size for all result images */
 .result-img {
     width: 240px;
